@@ -15,34 +15,61 @@ votre diagramme.
 
 1) Les professeurs peuvent enseigner le même cours sur plusieurs semestres et seule la plus récente doit être enregistrée.
 
-![ER Diagram for Qu1](assets/sol/qu1.PNG)
+![ER Diagram for Qu1](assets/sol/qu1a.PNG)
+
 
 2) Chaque professeur doit enseigner un cours.
 
-![ER Diagram for Qu2](assets/sol/qu2.PNG)
+![ER Diagram for Qu2](assets/sol/qu1b.PNG)
 
 
 3) Chaque professeur enseigne exactement un cours (ni plus, ni moins).
 
-![ER Diagram for Qu3](assets/sol/qu3.PNG)
+![ER Diagram for Qu3](assets/sol/qu1c.PNG)
 
 
 4) Chaque professeur enseigne exactement un cours (ni plus, ni moins), et chaque cours doit être enseigné par un professeur.
 
-![ER Diagram for Qu4](assets/sol/qu4.PNG)
+![ER Diagram for Qu4](assets/sol/qu1d.PNG)
 
 5) Les professeurs peuvent enseigner le même cours sur plusieurs semestres et chaque doit être enregistrée.
 
-![ER Diagram for Qu5](assets/sol/qu5.PNG)
+![ER Diagram for Qu5](assets/sol/qu1e.PNG)
 
 6) Supposons maintenant que certains cours puissent être enseignés conjointement par une équipe de professeurs, mais il est possible qu'aucun professeur dans une équipe ne puisse enseigner le cours. Modélisez cette situation en introduisant des ensembles d'entités et des ensembles de relations supplémentaires si nécessaire.
 
-![ER Diagram for Qu6](assets/sol/qu6.PNG)
+![ER Diagram for Qu6](assets/sol/qu1f.PNG)
 
 ## Diagramme de relation
 
 Avec les diagrammes ER ci-dessus, modèlez un diagramme relationnel pour les systèmes.
 
+1) Les professeurs peuvent enseigner le même cours sur plusieurs semestres et seule la plus récente doit être enregistrée.
+
+![ER Diagram for Qu1](assets/sol/qu2a.PNG)
+
+
+2) Chaque professeur doit enseigner un cours.
+
+![ER Diagram for Qu2](assets/sol/qu2b.PNG)
+
+
+3) Chaque professeur enseigne exactement un cours (ni plus, ni moins).
+
+![ER Diagram for Qu3](assets/sol/qu2c.PNG)
+
+
+4) Chaque professeur enseigne exactement un cours (ni plus, ni moins), et chaque cours doit être enseigné par un professeur.
+
+![ER Diagram for Qu4](assets/sol/qu2d.PNG)
+
+5) Les professeurs peuvent enseigner le même cours sur plusieurs semestres et chaque doit être enregistrée.
+
+![ER Diagram for Qu5](assets/sol/qu2e.PNG)
+
+6) Supposons maintenant que certains cours puissent être enseignés conjointement par une équipe de professeurs, mais il est possible qu'aucun professeur dans une équipe ne puisse enseigner le cours. Modélisez cette situation en introduisant des ensembles d'entités et des ensembles de relations supplémentaires si nécessaire.
+
+![ER Diagram for Qu6](assets/sol/qu2f.PNG)
 
 ## Schèma de relation
 
