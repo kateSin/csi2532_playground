@@ -60,7 +60,7 @@ Avec les diagrammes ER ci-dessus, modèlez un diagramme relationnel pour les sys
 
 6) Supposons maintenant que certains cours puissent être enseignés conjointement par une équipe de professeurs, mais il est possible qu'aucun professeur dans une équipe ne puisse enseigner le cours. Modélisez cette situation en introduisant des ensembles d'entités et des ensembles de relations supplémentaires si nécessaire.
 
-![RM #6](assetssol/rm_06.PNG)
+![RM #6](assets/sol/rm_06.PNG)
 
 ## Schèma de relation
 
