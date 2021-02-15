@@ -191,7 +191,7 @@ CREATE TABLE courses(
 	primary key (courseid)
 );
 
-CREATE TABLE group(
+CREATE TABLE groups(
 	groupid varchar(100),
 	primary key (groupid)
 );
@@ -201,7 +201,7 @@ CREATE TABLE member_of(
 	groupid varchar(100),
 	primary key (ssn, groupid),
 	foreign key (ssn) references professors,
-	foreign key (groupid) references group
+	foreign key (groupid) references groups
 );
 
 
@@ -210,7 +210,7 @@ CREATE TABLE teaches(
 	courseid varchar(100),
 	semesterid varchar(100), 
 	primary key (groupid, courseid, semesterid),
-	foreign key (groupid) references group,
+	foreign key (groupid) references groups,
 	foreign key (courseid) references courses
 );
 ```
