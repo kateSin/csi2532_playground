@@ -38,6 +38,30 @@ Pour chaque situation voici un diagramme ER qui le décrit
 
 Avec les diagrammes ER ci-dessus, modèlez un diagramme relationnel pour les systèmes.
 
+1) Les professeurs peuvent enseigner le même cours sur plusieurs semestres et seule la plus récente doit être enregistrée.
+
+![RM #1](assets/sol/rm_01.PNG)
+
+2) Chaque professeur doit enseigner un cours.
+
+![RM #2](assets/sol/rm_02.PNG)
+
+3) Chaque professeur enseigne exactement un cours (ni plus, ni moins).
+
+![RM #3](assets/sol/rm_03.PNG)
+
+4) Chaque professeur enseigne exactement un cours (ni plus, ni moins), et chaque cours doit être enseigné par un professeur.
+
+![RM #4](assets/sol/rm_04.PNG)
+
+5) Les professeurs peuvent enseigner le même cours sur plusieurs semestres et chaque doit être enregistrée.
+
+![RM #5](assets/sol/rm_05.PNG)
+
+6) Supposons maintenant que certains cours puissent être enseignés conjointement par une équipe de professeurs, mais il est possible qu'aucun professeur dans une équipe ne puisse enseigner le cours. Modélisez cette situation en introduisant des ensembles d'entités et des ensembles de relations supplémentaires si nécessaire.
+
+![RM #6](assetssol/rm_06.PNG)
+
 ## Schèma de relation
 
 Avec les diagrammes relationnel ci-dessus, écrivez un schéma SQL relationnel pour les systèmes.
