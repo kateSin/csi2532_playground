@@ -79,7 +79,7 @@ Creating 5 competitions:
 
 ```sql
 Insert into competitions(id,name, competition_date, venue)
-Values 	(1,'10k run','2021-01-10','ottawa'),
+Values 	(1,'10k run','ottawa','2021-01-10'),
 		(2,'As many burpees in 7 minutes','montreal','2021-03-12'),
 		(3,'21/15/9 of thrusters and pull-ups in 10 minutes','toronto','2021-04-15'),
 		(4,'As many rounds of 1,2,3 in 10 minutes','vancouver','2021-05-24'),
