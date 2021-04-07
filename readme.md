@@ -8,11 +8,12 @@
 
 The sample phpapp was setup successfully.
 
-* [sample phpapp](assets/ex1.PNG)
+ ![sample phpapp](assets/ex1.PNG)
 
 ## Exercise 2: Create a Client
 
 Run this migration to create the table client.
+
 ```
 \i db/202104071045-create-client.sql;
 ```
@@ -23,5 +24,4 @@ The new [PHP file](public/api.php) has been created.
 
 Testing our server, the output was 
 
-* [test server](assets/ex3.PNG)
-
+![test server](assets/ex3.PNG)
